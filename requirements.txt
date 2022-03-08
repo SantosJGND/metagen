@@ -8,16 +8,7 @@ numpy==1.22.2
 oauth==1.0.1
 oauthlib==2.0.6
 pandas==1.4.1
-PyGObject==3.26.1
-pyserial==3.4
-python-apt==1.6.5+ubuntu0.7
-python-dateutil==2.8.2
-python-debian==0.1.32
-PyYAML==3.12
-reportlab==3.4.0
-requests==2.18.4
 scipy==1.8.0
-SecretStorage==2.3.1
 simplejson==3.13.2
 SQLAlchemy==1.4.31
 sqlparse==0.4.2
