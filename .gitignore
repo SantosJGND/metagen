@@ -1,5 +1,4 @@
 .idea/
 __pycache__/
 venv/
-db.sqlite3
 RUNS_django/
