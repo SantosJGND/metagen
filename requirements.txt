@@ -1,4 +1,3 @@
-apturl
 asgiref==3.5.0
 asn1crypto==0.24.0
 backports.zoneinfo==0.2.1
