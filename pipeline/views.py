@@ -98,7 +98,7 @@ def meta_run(params, fofn, tech, pid):
             with open(td["params"], "r") as fp:
                 p1= Results(
                     project= Project(id= pid),
-                    process= process,
+                    process= process.split("/")[-1],
                     results= File(fr, name= Path(td["results"]).name),
                     args= File(fp, name= Path(td["params"]).name)
                 )
