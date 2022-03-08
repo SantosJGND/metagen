@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
         "project": 1,
-        "process": "RUNS_django/COPD-ENNGS_103045-001-106_tQqOGi8.fofn/run_0-0/child_0-0",
+        "process": "child_0-0",
         "results": "child_0-0.report_O43p5vw.tsv",
         "args": "child_0-0.args_RoAg3Jv.tsv"
     }
@@ -14,7 +14,7 @@
     "pk": 2,
     "fields": {
         "project": 2,
-        "process": "RUNS_django/PED-ENNGS_103045-001-063_iNZeznz.fofn/run_0-1/child_0-0",
+        "process": "child_0-0",
         "results": "child_0-0.report_G6qIW06.tsv",
         "args": "child_0-0.args_krWFYCk.tsv"
     }
@@ -24,7 +24,7 @@
     "pk": 3,
     "fields": {
         "project": 3,
-        "process": "RUNS_django/COPD-ENNGS_103045-001-106_dbvrwlJ.fofn/run_0-1/child_0-0",
+        "process": "child_0-0",
         "results": "child_0-0.report_gNPlBJo.tsv",
         "args": "child_0-0.args_CXY8ZBE.tsv"
     }
