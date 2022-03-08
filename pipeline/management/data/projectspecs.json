@@ -1,0 +1,44 @@
+[
+{
+    "model": "pipeline.projectspecs",
+    "pk": 1,
+    "fields": {
+        "project": 1,
+        "tech": 1,
+        "QC": 1,
+        "HD": 3,
+        "CLASSM": 14,
+        "ASSEMBLY": 7,
+        "CLASSA": 9,
+        "REMAP": 17
+    }
+},
+{
+    "model": "pipeline.projectspecs",
+    "pk": 2,
+    "fields": {
+        "project": 2,
+        "tech": 1,
+        "QC": 1,
+        "HD": 4,
+        "CLASSM": 14,
+        "ASSEMBLY": 7,
+        "CLASSA": 8,
+        "REMAP": 17
+    }
+},
+{
+    "model": "pipeline.projectspecs",
+    "pk": 3,
+    "fields": {
+        "project": 3,
+        "tech": 1,
+        "QC": 1,
+        "HD": 3,
+        "CLASSM": 12,
+        "ASSEMBLY": 7,
+        "CLASSA": 8,
+        "REMAP": 18
+    }
+}
+]

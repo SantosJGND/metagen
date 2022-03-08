@@ -1,0 +1,35 @@
+[
+{
+    "model": "pipeline.project",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "first_project",
+        "created_on": "2022-03-08T13:45:56.563Z",
+        "technology": 1,
+        "samples": "COPD-ENNGS_103045-001-106_tQqOGi8.fofn"
+    }
+},
+{
+    "model": "pipeline.project",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "second_project",
+        "created_on": "2022-03-08T13:50:09.826Z",
+        "technology": 1,
+        "samples": "PED-ENNGS_103045-001-063_iNZeznz.fofn"
+    }
+},
+{
+    "model": "pipeline.project",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "title": "something",
+        "created_on": "2022-03-08T14:22:19.287Z",
+        "technology": 1,
+        "samples": "COPD-ENNGS_103045-001-106_dbvrwlJ.fofn"
+    }
+}
+]
