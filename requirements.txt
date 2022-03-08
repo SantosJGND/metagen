@@ -1,3 +1,4 @@
+psycopg2
 biopython==1.79
 Django==4.0.2
 django-heroku==0.0.0
