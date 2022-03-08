@@ -126,5 +126,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LOGIN_REDIRECT_URL = "pipeline:dashboard"
 LOGOUT_REDIRECT_URL = "pipeline:dashboard"
 
+CSRF_TRUSTED_ORIGINS= ["https://whispering-caverns-81183.herokuapp.com"]
 import django_heroku
 django_heroku.settings(locals())
