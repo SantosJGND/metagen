@@ -6,7 +6,6 @@ blinker==1.4
 certifi==2018.1.18
 chardet==3.0.4
 click==6.7
-cloud-init==21.4
 colorama==0.3.7
 command-not-found==0.3
 configobj==5.0.6
@@ -70,8 +69,6 @@ SQLAlchemy==1.4.31
 sqlparse==0.4.2
 system-service==0.3
 systemd-python==234
-ubuntu-advantage-tools==27.5
-ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.22
