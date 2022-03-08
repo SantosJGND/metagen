@@ -1,0 +1,44 @@
+[
+    {
+        "model": "pipeline.module",
+        "pk": 1,
+        "fields": {
+            "name": "QC"
+        }
+    },
+    {
+        "model": "pipeline.module",
+        "pk": 2,
+        "fields": {
+            "name": "HD"
+        }
+    },
+    {
+        "model": "pipeline.module",
+        "pk": 3,
+        "fields": {
+            "name": "ASSEMBLY_SOFT"
+        }
+    },
+    {
+        "model": "pipeline.module",
+        "pk": 4,
+        "fields": {
+            "name": "ASSEMBLE_CLASS"
+        }
+    },
+    {
+        "model": "pipeline.module",
+        "pk": 5,
+        "fields": {
+            "name": "CLASSM"
+        }
+    },
+    {
+        "model": "pipeline.module",
+        "pk": 6,
+        "fields": {
+            "name": "REMAP_SOFT"
+        }
+    }
+]

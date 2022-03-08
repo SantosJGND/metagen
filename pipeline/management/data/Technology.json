@@ -1,0 +1,16 @@
+[
+    {
+        "model": "pipeline.technology",
+        "pk": 1,
+        "fields": {
+            "name": "illumina"
+        }
+    },
+    {
+        "model": "pipeline.technology",
+        "pk": 2,
+        "fields": {
+            "name": "nanopore"
+        }
+    }
+]

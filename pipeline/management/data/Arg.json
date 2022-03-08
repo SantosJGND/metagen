@@ -1,0 +1,642 @@
+[
+    {
+        "model": "pipeline.Arg",
+        "pk": 1,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "name": "TRIM_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 2,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "name": "TRIM_THREADS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 3,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "name": "FQ_THREADS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 4,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 10,
+            "name": "FVE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 5,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 10,
+            "name": "FVE_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 6,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 12,
+            "name": "CENTRIFUGE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 7,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 13,
+            "name": "KAIJU_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 8,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 14,
+            "name": "KUNIQ_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 9,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 15,
+            "name": "KRAKEN_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 10,
+        "fields": {
+            "tech": 1,
+            "module": 3,
+            "soft": 7,
+            "name": "SPADES_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 11,
+        "fields": {
+            "tech": 1,
+            "module": 3,
+            "soft": 7,
+            "name": "ASSEMBLY_LTRIM"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 12,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 10,
+            "name": "FVE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 13,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 10,
+            "name": "FVE_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 14,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 11,
+            "name": "DIAMOND_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 15,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 11,
+            "name": "DIAMOND_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 16,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 12,
+            "name": "CENTRIFUGE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 17,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 13,
+            "name": "KAIJU_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 18,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 14,
+            "name": "KUNIQ_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 19,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 15,
+            "name": "KRAKEN_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 20,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "name": "SNIPPY_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 21,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "name": "SNIPPY_RESOURCES"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 22,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "name": "REMAP_REF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 23,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "name": "MIN_COVERAGE_DEPTH"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 24,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "name": "MINIMAP_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 25,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "name": "MINIMAP_AX"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 26,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "name": "MINIMAP_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 27,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "name": "REMAP_REF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 28,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "name": "MIN_COVERAGE_DEPTH"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 29,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "name": "REMATCH_RESOURCES"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 30,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "name": "REMATCH_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 31,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "name": "REMATCH_ENV"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 32,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "name": "REMAP_REF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 33,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "name": "MIN_COVERAGE_DEPTH"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 34,
+        "fields": {
+            "tech": 2,
+            "module": 1,
+            "soft": 19,
+            "name": "NANOFILT_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 35,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 20,
+            "name": "DVF_CORES"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 36,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 20,
+            "name": "DVF_MODEL"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 37,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "name": "MINIMAP_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 38,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "name": "MINIMAP_QCF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 39,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "name": "MINIMAP_AX"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 40,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "name": "MINIMAP_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 41,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 33,
+            "name": "CENTRIFUGE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 42,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 34,
+            "name": "KAIJU_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 43,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 35,
+            "name": "KUNIQ_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 44,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 30,
+            "name": "KRAKEN_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 45,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 26,
+            "name": "FLYE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 46,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 26,
+            "name": "ASSEMBLY_LTRIM"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 47,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 27,
+            "name": "RAVEN_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 48,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 27,
+            "name": "ASSEMBLY_LTRIM"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 49,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 30,
+            "name": "KRAKEN_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 50,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "name": "DESAMBA_PROC"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 51,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "name": "DESAMBA_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 52,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "name": "DESAMBA_QFC"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 53,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "name": "MINIMAP_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 54,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "name": "MINIMAP_AX"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 55,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "name": "MINIMAP_QCF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 56,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "name": "MINIMAP_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 57,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 33,
+            "name": "CENTRIFUGE_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 58,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 34,
+            "name": "KAIJU_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 59,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 35,
+            "name": "KUNIQ_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 60,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "name": "MINIMAP_ARGS"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 61,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "name": "MINIMAP_DB"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 62,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "name": "MINIMAP_AX"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 63,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "name": "REMAP_REF"
+        }
+    },
+    {
+        "model": "pipeline.Arg",
+        "pk": 64,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "name": "MIN_COVERAGE_DEPTH"
+        }
+    }
+]

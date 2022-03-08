@@ -1,0 +1,13 @@
+module	software	param	value
+QC	trimmomatic	TRIM_ARGS	SLIDINGWINDOW:5:20 LEADING:3 TRAILING:3 TOPHRED33: MINLEN:35
+QC	trimmomatic	TRIM_THREADS	8
+QC	trimmomatic	FQ_THREADS	8
+HD	kaiju	KAIJU_ARGS	-z 4 -e 5 -s 65 -X -v
+ASSEMBLY_SOFT	spades	SPADES_ARGS	--metaviral -t 8 --phred-offset 33 --only-assembler
+ASSEMBLY_SOFT	spades	ASSEMBLY_LTRIM	50
+CLASSM	kuniq	KUNIQ_ARGS	--threads 4 --gzip-compressed --fastq-input
+REMAP_SOFT	minimap-rem	MINIMAP_ARGS	-t 4
+REMAP_SOFT	minimap-rem	MINIMAP_AX	map-ont
+REMAP_SOFT	minimap-rem	MINIMAP_DB	refseq_viral.genomic.fna.gz
+REMAP_SOFT	minimap-rem	REMAP_REF	refseq_viral.genomic.fna.gz
+REMAP_SOFT	minimap-rem	MIN_COVERAGE_DEPTH	2

@@ -1,0 +1,706 @@
+[
+    {
+        "model": "pipeline.flag",
+        "pk": 1,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "arg": 1,
+            "name": "SLIDINGWINDOW:5:20 LEADING:3 TRAILING:3 TOPHRED33: MINLEN:35"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 2,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "arg": 2,
+            "name": "8"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 3,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "soft": 1,
+            "arg": 3,
+            "name": "8"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 4,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 10,
+            "arg": 4,
+            "name": "-cr 0.3 -co .1 -cn 5"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 5,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 10,
+            "arg": 5,
+            "name": "virossaurus"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 6,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 12,
+            "arg": 6,
+            "name": "-p 4 --time -k 3 --out-fmt sam"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 7,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 13,
+            "arg": 7,
+            "name": "-z 4 -e 5 -s 65 -X -v"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 8,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 14,
+            "arg": 8,
+            "name": "--threads 4 --gzip-compressed --fastq-input --quick"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 9,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "soft": 15,
+            "arg": 9,
+            "name": "--threads 4 --gzip-compressed  --confidence .5 "
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 10,
+        "fields": {
+            "tech": 1,
+            "module": 3,
+            "soft": 7,
+            "arg": 10,
+            "name": "--metaviral -t 8 --phred-offset 33 --only-assembler"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 11,
+        "fields": {
+            "tech": 1,
+            "module": 3,
+            "soft": 7,
+            "arg": 11,
+            "name": "50"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 12,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 10,
+            "arg": 12,
+            "name": "-cr 0.3 -co .1 -cn 5"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 13,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 10,
+            "arg": 13,
+            "name": "virossaurus"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 14,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 11,
+            "arg": 14,
+            "name": "-p 4 --top 5 -e 0.01 --id 60 --query-cover 60 --sensitive"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 15,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 11,
+            "arg": 15,
+            "name": "swissprot"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 16,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 12,
+            "arg": 16,
+            "name": "-p 4 --time -k 3 --out-fmt sam"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 17,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 13,
+            "arg": 17,
+            "name": "-z 3 -e 5 -s 65 -x -v"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 18,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 14,
+            "arg": 18,
+            "name": "--threads 4 --gzip-compressed --fastq-input"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 19,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "soft": 15,
+            "arg": 19,
+            "name": "--threads 4 --gzip-compressed --confidence .5"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 20,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "arg": 20,
+            "name": "--mapqual 60 --mincov 10"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 21,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "arg": 21,
+            "name": "--cpus 3 --ram 8"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 22,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "arg": 22,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 23,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 16,
+            "arg": 23,
+            "name": "2"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 24,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "arg": 24,
+            "name": "-t 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 25,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "arg": 25,
+            "name": "map-ont"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 26,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "arg": 26,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 27,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "arg": 27,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 28,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 17,
+            "arg": 28,
+            "name": "2"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 29,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "arg": 29,
+            "name": "-j 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 30,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "arg": 30,
+            "name": "--minCovCall 10 --minCovPresence 5 --reportSequenceCoverage"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 31,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "arg": 31,
+            "name": "/home/artic/Desktop/mngs_environments/remap/ReMatCh/ReMatCh/"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 32,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "arg": 32,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 33,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "soft": 18,
+            "arg": 33,
+            "name": "2"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 34,
+        "fields": {
+            "tech": 2,
+            "module": 1,
+            "soft": 19,
+            "arg": 34,
+            "name": "-q20"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 35,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 20,
+            "arg": 35,
+            "name": "4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 36,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 20,
+            "arg": 36,
+            "name": "BASE"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 37,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "arg": 37,
+            "name": "-t 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 38,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "arg": 38,
+            "name": "20"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 39,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "arg": 39,
+            "name": "map-ont"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 40,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 32,
+            "arg": 40,
+            "name": "virosaurus90_vertebrate-20200330.fas.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 41,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 33,
+            "arg": 41,
+            "name": "-p 4 --time -k 3 --out-fmt sam"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 42,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 34,
+            "arg": 42,
+            "name": "-z 4 -e 5 -s 65 -X -v"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 43,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 35,
+            "arg": 43,
+            "name": "--threads 4 --gzip-compressed --fastq-input --quick"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 44,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "soft": 30,
+            "arg": 44,
+            "name": "--threads 4 --gzip-compressed  --confidence .5 "
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 45,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 26,
+            "arg": 45,
+            "name": "--threads 4 --scaffold --nano-raw"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 46,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 26,
+            "arg": 46,
+            "name": "50"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 47,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 27,
+            "arg": 47,
+            "name": "-t4 -p2"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 48,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "soft": 27,
+            "arg": 48,
+            "name": "50"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 49,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 30,
+            "arg": 49,
+            "name": "--threads 4 --gzip-compressed --confidence .5"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 50,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "arg": 50,
+            "name": "-t 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 51,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "arg": 51,
+            "name": "virossaurus"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 52,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 31,
+            "arg": 52,
+            "name": "20"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 53,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "arg": 53,
+            "name": "-t 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 54,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "arg": 54,
+            "name": "map-ont"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 55,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "arg": 55,
+            "name": "20"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 56,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 32,
+            "arg": 56,
+            "name": "virosaurus90_vertebrate-20200330.fas.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 57,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 33,
+            "arg": 57,
+            "name": "-p 4 --time -k 3 --out-fmt sam"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 58,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 34,
+            "arg": 58,
+            "name": "-z 3 -e 5 -s 65 -x -v"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 59,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "soft": 35,
+            "arg": 59,
+            "name": "--threads 4 --gzip-compressed --fastq-input"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 60,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "arg": 60,
+            "name": "-t 4"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 61,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "arg": 61,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 62,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "arg": 62,
+            "name": "map-ont"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 63,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "arg": 63,
+            "name": "refseq_viral.genomic.fna.gz"
+        }
+    },
+    {
+        "model": "pipeline.flag",
+        "pk": 64,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "soft": 36,
+            "arg": 64,
+            "name": "1"
+        }
+    }
+]

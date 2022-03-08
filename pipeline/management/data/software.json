@@ -1,0 +1,326 @@
+[
+    {
+        "model": "pipeline.software",
+        "pk": 1,
+        "fields": {
+            "tech": 1,
+            "module": 1,
+            "name": "trimmomatic"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 2,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "name": "fve"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 3,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "name": "centrifuge"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 4,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "name": "kaiju"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 5,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "name": "kuniq"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 6,
+        "fields": {
+            "tech": 1,
+            "module": 2,
+            "name": "kraken2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 7,
+        "fields": {
+            "tech": 1,
+            "module": 3,
+            "name": "spades"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 8,
+        "fields": {
+            "tech": 1,
+            "module": 4,
+            "name": "blast"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 9,
+        "fields": {
+            "tech": 1,
+            "module": 4,
+            "name": "minimap-asm"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 10,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "fve"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 11,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "diamond"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 12,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "centrifuge"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 13,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "kaiju"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 14,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "kuniq"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 15,
+        "fields": {
+            "tech": 1,
+            "module": 5,
+            "name": "kraken2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 16,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "name": "snippy"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 17,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "name": "minimap-rem"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 18,
+        "fields": {
+            "tech": 1,
+            "module": 6,
+            "name": "rematch"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 19,
+        "fields": {
+            "tech": 2,
+            "module": 1,
+            "name": "nanofilt"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 20,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "dvf"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 21,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "minimap2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 22,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "centrifuge"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 23,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "kaiju"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 24,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "kuniq"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 25,
+        "fields": {
+            "tech": 2,
+            "module": 2,
+            "name": "kraken2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 26,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "name": "flye"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 27,
+        "fields": {
+            "tech": 2,
+            "module": 3,
+            "name": "raven"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 28,
+        "fields": {
+            "tech": 2,
+            "module": 4,
+            "name": "blast"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 29,
+        "fields": {
+            "tech": 2,
+            "module": 4,
+            "name": "minimap-asm"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 30,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "kraken2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 31,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "desamba"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 32,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "minimap2"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 33,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "centrifuge"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 34,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "kaiju"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 35,
+        "fields": {
+            "tech": 2,
+            "module": 5,
+            "name": "kuniq"
+        }
+    },
+    {
+        "model": "pipeline.software",
+        "pk": 36,
+        "fields": {
+            "tech": 2,
+            "module": 6,
+            "name": "minimap-rem"
+        }
+    }
+]

@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div  class="col-md-8 offset-md-2">
+    <hr/>
+    <form action= "" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <small>
+            Attention, this will do nothing if running on heroku.
+        </small>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    </div>
+{% endblock %}

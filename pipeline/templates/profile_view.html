@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div  class="col-md-8 offset-md-2">
+    <h3>{{ project.title }} page</h3>
+    <small>
+        created on: {{ project.created_on.date }}
+        <br>
+        technology: {{ project.technology.name }}
+        <br>
+        fofn: {{ project.samples }}
+    </small>
+    <hr>
+    <h5>Software overview</h5>
+    <div class="col-md-8 offset-md-4">
+        <table border = "0" width = "60%" cellpadding="4">
+
+        {% for key, value in specs.items %}
+            <tr>
+                <td>{{ key }}</td><td>{{ value }}</td>
+            </tr>
+        {% endfor %}
+        </table>
+    </div>
+    <hr>
+    <h5>Results</h5>
+    <div class="container">
+      <table class="table table-dark table-striped">
+        <thead>
+          <tr>
+            <th>Taxid</th>
+            <th>Refseq</th>
+            <th>Description</th>
+            <th>Read Class</th>
+            <th>Contig Class</th>
+            <th>Depth</th>
+            <th>Coverage</th>
+          </tr>
+        </thead>
+        <tbody>
+        {% if results %}
+        {% for i in results %}
+          <tr>
+            <td>{{i.taxid}}</td>
+            <td>{{i.refseq}}</td>
+            <td>{{i.description}}</td>
+            <td>{{i.rclass}}</td>
+            <td>{{i.aclass}}</td>
+            <td>{{ i.depth }}</td>
+            <td>{{ i.coverage }}</td>
+          </tr>
+        {% endfor %}
+        {% endif %}
+        </tbody>
+      </table>
+    </div>
+    <hr>
+    <h5>args</h5>
+    <table border = "0" width = "60%" cellpadding="4">
+        {{ args|safe }}
+    </table>
+    <hr>
+</div>
+{% endblock %}
+

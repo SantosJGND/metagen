@@ -1,0 +1,8 @@
+QC	HD	ASSEMBLY_SOFT	ASSEMBLE_CLASS	CLASSM	REMAP_SOFT	module	software	param	value	module	software	param	value
+trimmomatic	fve	spades	blast	centrifuge	snippy	QC	trimmomatic	TRIM_ARGS	SLIDINGWINDOW:5:20 LEADING:3 TRAILING:3 TOPHRED33: MINLEN:35	CLASSM	centrifuge	CENTRIFUGE_ARGS	-p 4 --time -k 3 --out-fmt sam
+						QC	trimmomatic	TRIM_THREADS	8	REMAP_SOFT	snippy	SNIPPY_ARGS	--mapqual 60 --mincov 10
+						QC	trimmomatic	FQ_THREADS	8	REMAP_SOFT	snippy	SNIPPY_RESOURCES	--cpus 3 --ram 8
+						HD	fve	FVE_ARGS	-cr 0.3 -co .1 -cn 5	REMAP_SOFT	snippy	REMAP_REF	refseq_viral.genomic.fna.gz
+						HD	fve	FVE_DB	virossaurus	REMAP_SOFT	snippy	MIN_COVERAGE_DEPTH	2
+						ASSEMBLY_SOFT	spades	SPADES_ARGS	--meta -t 8 --phred-offset 33 --only-assembler				
+						ASSEMBLY_SOFT	spades	ASSEMBLY_LTRIM	50				
